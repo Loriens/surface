@@ -2,11 +2,16 @@
   "name": "surface",
   "description": "It is an example for my portfolio.",
   "version": "0.0.1",
+  "author": "Vladislav Markov",
   "repository": {
     "type": "git",
     "url": "https://github.com/Loriens/surface.git"
   },
   "devDependencies": {
-    "gulp-less": "^3.1.0"
+    "gulp-less": "^3.1.0",
+    "gulp": "3.9.1"
+  },
+  "scripts": {
+    "build": "gulp style"
   }
 }
