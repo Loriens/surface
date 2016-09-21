@@ -1,8 +1,8 @@
 @import "mixins.less";
-@import "outlines.less";
+//@import "outlines.less";
 @import "variables.less";
 
-@import "page-header.less";
+@import "blocks/page-header.less";
 
 body {
   margin: 0;
@@ -13,6 +13,9 @@ body {
 }
 
 .visually-hidden {
+  display: block;
+  width: 0;
+  height: 0;
   margin-left: -10000px;
 
   visually: hidden;
