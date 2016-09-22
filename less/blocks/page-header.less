@@ -1,8 +1,14 @@
 .page-header {
-  background: #1d1d3e url("../img/background-header.jpg") center 0px;
+  background: #1d1d3e url("../img/background-header-320px.jpg") center 0px no-repeat;
+
+  @media @tablet-widths {
+    background: #1d1d3e url("../img/background-header.jpg") center 0px;    
+  }
 }
 
-page-header__wrapper {
+.page-header__wrapper {
+  padding-top: 38px;
+
   .container;
 }
 
